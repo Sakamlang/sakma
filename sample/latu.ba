@@ -1,0 +1,8 @@
+# This will print only till ᱕, it will break after ᱚ = ᱕
+ᱪᱦᱟᱠᱟ(ᱪᱟᱞᱟ ᱚ = ᱐; ᱚ < ᱑᱐; ᱪᱟᱞᱟ  ᱚ = ᱚ+ ᱑)
+{
+  ᱡᱩᱫᱤ (ᱚ > ᱕){
+    ᱨᱟᱯᱩᱫ;
+ }
+  ᱚᱞ  "ᱚ = " + ᱚ;
+}

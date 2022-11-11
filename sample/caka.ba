@@ -1,0 +1,6 @@
+ᱪᱦᱟᱠᱟ(ᱪᱟᱞᱟ ᱚ = ᱐; ᱚ < ᱑᱐; ᱪᱟᱞᱟ  ᱚ = ᱚ+ ᱑)
+{
+  # ᱪᱦᱟᱠᱟ takes in 3 parameters initial value, and condition, and a step size
+  ᱚᱞ  "ᱚ = " + ᱚ;
+} 
+# This will print ᱐ to ᱙

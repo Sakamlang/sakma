@@ -1,0 +1,31 @@
+{
+  "name": "sakam-lang",
+  "version": "0.0.1",
+  "description": "Sakam programming language in olchiki",
+
+
+  "engines": {
+    "node": ">=12.x"
+  },
+  "keywords": [
+    "Sakam",
+    "SakamJS"
+  ],
+  "main": "main.js",
+  "unpkg": "./dist/sakam.js",
+  "jsdelivr": "./dist/sakam.js",
+  "bin": {
+    "vsc": "main.js",
+    "sakam": "main.js"
+  },
+  "scripts": {
+    "test": "./test.sh",
+    "build": "browserify src/interpreter --standalone sakam | uglifyjs -cm > dist/sakam.js",
+    "lint": "eslint ./src --fix",
+    "prettier": "prettier src --single-quote --write"
+  }, 
+  "dependencies": {
+    "chalk": "^4.0.1",
+    "yargs-parser": "^21.0.1"
+  }
+}
